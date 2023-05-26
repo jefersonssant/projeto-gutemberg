@@ -175,12 +175,8 @@ div#centralização {
     max-width: 1000px;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-bottom: 10px;
-}
-
-div.social > a.rede img#wapphover:hover {
-    background-image: url(assets/whatsappcor.png);
 }
 
 footer {
