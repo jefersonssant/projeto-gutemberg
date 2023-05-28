@@ -52,3 +52,75 @@ nav > a {
 nav > a:hover {
     background-color: var(--cor3);
 }
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    max-width: 60%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+article h1 {
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    line-height: 2.0em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    line-height: 2.0em;
+    margin-bottom: 20px;
+    text-indent: 40px;
+}
+
+aside {
+    background-color: var(--cor2);
+    max-width: 40%;
+    height: 600px;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+aside ul {
+    list-style: inside;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+}
+
+aside a:hover {
+    background-color: var(--cor3);
+}
+
+footer {
+    background-color: var(--cor4);
+    padding: 10px;
+}
+
+footer p {
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 1.2em;
+}
+
+footer a#linkpe {
+    text-decoration: none;
+    color: white;
+}
+
+footer a#linkpe > p:hover {
+    color: var(--cor3);
+}
+
+footer p#linkado::after {
+    content: "🔗";
+}
