@@ -190,9 +190,23 @@ footer {
     padding: 10px;
 }
 
-footer > p {
+
+footer p {
     font-family: "open sans", Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
     line-height: 1.2em;
+}
+
+footer a#linkpe {
+    text-decoration: none;
+    color: white;
+}
+
+footer a#linkpe > p:hover {
+    color: var(--cor3);
+}
+
+footer p#linkado::after {
+    content: "🔗";
 }
