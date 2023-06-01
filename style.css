@@ -180,7 +180,7 @@ div#centralização {
     padding-bottom: 10px;
 }
 
-div#centralização div.social > a.rede > img {
+div#centralização div.social > img {
     display: inline-block;
     margin: 10px;
 } 
@@ -198,15 +198,16 @@ footer p {
     line-height: 1.2em;
 }
 
-footer a#linkpe {
+footer p#linkpe {
+    cursor: pointer;
     text-decoration: none;
     color: white;
 }
 
-footer a#linkpe > p:hover {
+footer p#linkpe:hover {
     color: var(--cor3);
 }
 
-footer p#linkado::after {
+footer p#linkpe::after {
     content: "🔗";
 }

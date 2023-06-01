@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0:#f4c6c6c8; 
+    --cor1:#FA3434;
+    --cor2:#7A3E3E;
+    --cor3:#C72A2A;
+    --cor4:#591313;
+}
+
+body {
+    background-color: #7a3e3e28;
+}
+
+header {
+    background-color: #591313;
+    padding: 10px;
+    margin: 0px;
+}
+
+header > div {
+    text-align: center;
+    display: block;
+}
+
+header > div > img {
+    max-width: 300px;
+}
+
+nav {
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--cor4);
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+}
+
+div#zohoag {
+    position: relative;
+    background-color: var(--cor3);
+    max-width: 90%;
+    padding: 0px;
+    padding-bottom: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 5px solid var(--cor4);
+}
+
+iframe {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: var(--cor4);
+    padding: 10px;
+}
+
+
+footer p {
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 1.2em;
+}
+
+footer p#linkpe {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+footer p#linkpe:hover {
+    color: var(--cor3);
+}
+
+footer p#linkpe::after {
+    content: "🔗";
+}
