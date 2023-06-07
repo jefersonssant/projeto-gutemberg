@@ -100,6 +100,7 @@ main figure {
 main figure > img#Guto {
     display: block;
     max-width: 400px;
+    min-width: 300px;
     margin: auto;
     border-width: 5px;
     border-style: double;
