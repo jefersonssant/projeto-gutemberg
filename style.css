@@ -61,6 +61,8 @@ h1#ptitle {
     padding: 10px;
 }
 
+@media (max-width: 450px) {nav >a#adequacaomenu {display:inline-block; margin-top: 20px;}}
+
 /*Título do diferencial*/
 h1 {
     font-family: "open sans", Arial, Helvetica, sans-serif;
