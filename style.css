@@ -102,8 +102,8 @@ main figure > img#Guto {
     max-width: 400px;
     min-width: 300px;
     margin: auto;
-    border-width: 5px;
-    border-style: double;
+    border-width: 2px;
+    border-style: solid;
     border-color: var(--cor2);
 }
 
