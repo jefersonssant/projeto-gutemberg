@@ -97,10 +97,9 @@ main figure {
     margin-top: 20px;
 }
 
-main figure > img#Guto {
+main figure > picture > img#Guto {
     display: block;
     max-width: 400px;
-    min-width: 250px;
     margin: auto;
     border-width: 2px;
     border-style: solid;
