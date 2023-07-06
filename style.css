@@ -124,7 +124,10 @@ main figure > figcaption > a {
 
 main figure > figcaption > a:hover {
     color: var(--cor3);
-} /*Termina Imagem de Gutemberg*/
+}
+
+@media (max-width: 454px) {#tamanho {font-size: .6em;}}
+/*Termina Imagem de Gutemberg*/
 
 /*Áreas de atuação*/
 
