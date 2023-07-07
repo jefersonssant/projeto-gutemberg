@@ -81,6 +81,11 @@ article p {
     text-indent: 40px;
 }
 
+article blockquote {
+    margin-bottom: 10px;
+    margin-left: 40%;
+}
+
 aside {
     background-color: var(--cor2);
     width: 40%;
@@ -90,6 +95,7 @@ aside {
     margin-right: 30px;
     margin-left: 10px;
     border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.464);
 }
 
 aside ul {
@@ -105,7 +111,9 @@ aside a:hover {
     background-color: var(--cor3);
 }
 
-@media (max-width: 600px) { main {flex-direction: column; margin: auto;} article, aside {margin: auto; min-width: 300px;} aside {margin-bottom: 10px;}}
+@media (max-width: 600px) { main {flex-direction: column; margin: auto;} article, aside {padding-right: 10px; padding-left: 10px; margin: auto; min-width: 300px;} aside {margin-bottom: 10px;}}
+@media (max-width: 840px) {aside {max-height: 200px;}}
+
 
 footer {
     background-color: var(--cor4);
