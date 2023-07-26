@@ -53,6 +53,33 @@ nav > a:hover {
     background-color: var(--cor3);
 }
 
+@media (max-width: 450px) {nav >a#adequacaomenu {display: block; text-align: center; width: 60px; margin-top: 20px; margin-right: auto; margin-left: auto;}}
+
+/* Configurações de navegação de imagens */
+
+section {
+    display: flex;
+}
+
+.carrossel {
+    overflow: hidden;
+    width: 499px;
+    height: 667px;
+}
+
+.container {
+    display: flex;
+    transition: 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+div > img.cssel {
+    object-fit: contain;
+    width: 499px;
+    height: 667px;
+}
+
+/* Temina configurações de navegação de imagens */
 
 footer {
     background-color: var(--cor4);
