@@ -83,7 +83,7 @@ ul.slider {
     display: block;
     width: 500px;
     height: 667px;
-    margin-top: 10px;
+    padding-left: 50px;
     position: relative;
 }
 
@@ -156,12 +156,14 @@ ul.slider li {
 article {
     width: 70%;
     margin-left: 40px;
+    padding-right: 50px;
 }
 
 article h2 {
     font-family: "open sans", Arial, Helvetica, sans-serif;
     color: white;
-    padding: 10px;
+    padding-left: 35px;
+    margin-bottom: 30px;
 }
 
 article  p {
@@ -170,7 +172,7 @@ article  p {
     color: white;
     line-height: 2em;
     text-indent: 40px;
-    padding: 10px;
+    padding-left: 35px;
 }
 
 /* Termina configurações de Article e p */
