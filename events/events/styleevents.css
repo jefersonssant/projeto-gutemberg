@@ -181,7 +181,9 @@ article  p {
 
  @media (max-width: 1454px) {ul.slider{padding-left: 10px;} article, article > p {padding-right: 10px; margin-left: 50px;} article > p {font-size: .8em;} article > h2 {font-size: .8em; padding-left: 35px; margin: 0px 0px 30px 50px;}}
 
- @media (max-width:970px) {section {flex-direction: column; margin: auto; margin-bottom: 25px;} ul.slider {} article {width: 90%; margin: auto; padding: 0px;} article > h2 {font-size: 1em; margin: 20px 0px 20px 0px; padding: 0px;} article > p {font-size: .9em; margin: 0px; padding: 0px;}}
+ @media (max-width:970px) {section {flex-direction: column; margin: auto; margin-bottom: 25px;} ul.slider {width: 500px; height: 667px; margin: auto; padding:  0px 10px 0px 10px;} article {width: 90%; margin: auto; padding: 0px;} article > h2 {font-size: 1em; margin: 20px 0px 20px 0px; padding: 0px;} article > p {font-size: .9em; margin: 0px; padding: 0px;}}
+
+ @media (max-width: 600px) {ul.slider {width: 300px; height: 400px; margin: auto; padding: 0px 10px 0px 10px;}}
 
 footer {
     background-color: var(--cor4);
