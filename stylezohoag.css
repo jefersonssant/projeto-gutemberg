@@ -67,7 +67,7 @@ div#zohoag {
     border: 5px solid var(--cor4);
 }
 
-@media (max-width: 450px) {div#zohoag {height: 450px; overflow: hidden;} iframe {height: 450px; overflow: hidden;}}
+@media (max-width: 450px) {div#zohoag {height: 450px; overflow: hidden;} iframe {height: 450px; overflow: hidden; position: static;}}
 
 iframe {
     position: absolute;
