@@ -68,6 +68,7 @@ div#zohoag {
 }
 
 @media (max-width: 450px) {div#zohoag {min-height: 450px;} iframe {position: fixed;}}
+@media (max-width: 450px) {div#zohoag {min-height: 450px;}}
 
 iframe {
     position: absolute;
