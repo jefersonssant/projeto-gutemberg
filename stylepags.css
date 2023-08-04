@@ -74,11 +74,22 @@ article h1 {
     margin-bottom: 20px;
 }
 
+article h2 {
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
 article p {
     font-family: "open sans", Arial, Helvetica, sans-serif;
     line-height: 2.0em;
     margin-bottom: 20px;
     text-indent: 40px;
+}
+
+article p.ref {
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    text-indent: 0px;
 }
 
 article blockquote {
