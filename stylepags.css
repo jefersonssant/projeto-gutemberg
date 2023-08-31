@@ -60,7 +60,7 @@ nav > a:hover {
 
 @media (max-width: 450px) {nav >a#adequacaomenu {display: block; text-align: center; width: 60px; margin-top: 20px; margin-right: auto; margin-left: auto;}}
 
-@media (max-width: 327px) { nav > #telamg {display: none} #telapp{display: inline-block;}}
+@media (max-width: 327px) {nav{margin-top: 10px;} nav >a#adequacaomenu {margin-top: 10px;} nav > #telamg {display: none;} #telapp{display: inline-block;}}
 
 main {
     display: flex;
@@ -107,7 +107,7 @@ article blockquote {
 aside {
     background-color: var(--cor2);
     width: 40%;
-    max-height: 100px;
+    max-height: 310px;
     padding: 10px;
     margin-top: 35px;
     margin-right: 30px;
@@ -129,9 +129,11 @@ aside a:hover {
     background-color: var(--cor3);
 }
 
-@media (max-width: 600px) { main {flex-direction: column; margin: auto;} article, aside {padding-right: 10px; padding-left: 10px; margin: auto; min-width: 300px;} aside {margin-bottom: 10px;}}
-@media (max-width: 840px) {aside {max-height: 200px;}}
-@media (max-width: 300px) {aside {width: 200px; height: 250px; padding: 0px 10px 0px 10px}; aside ul {width: 200px;}}
+@media (max-width: 840px) {article {max-width: 100%}; aside { margin-bottom: 20px;}}
+
+@media (max-width: 600px) {main {flex-direction: column; margin: auto;} article, aside {padding-right: 10px; padding-left: 10px; margin: auto;} aside {width: 300px; margin-bottom: 20px;} article {max-width: 90%};}
+
+@media (max-width: 300px) {aside {width: 230px; min-height: 160px; padding: 0px 10px 0px 10px; margin-bottom: 20px}; aside ul {width: 100px;}}
 
 
 footer {
