@@ -26,12 +26,13 @@ header {
 }
 
 header > div {
-    text-align: center;
     display: block;
+    max-width: 300px;
+    margin: 0px auto 0px auto;
 }
 
 header > div > img {
-    max-width: 300px;
+    width: 100%;
 }
 
 nav {
@@ -49,11 +50,17 @@ nav > a {
     background-color: var(--cor4);
 }
 
+#telapp {
+    display: none;
+}
+
 nav > a:hover {
     background-color: var(--cor3);
 }
 
 @media (max-width: 450px) {nav >a#adequacaomenu {display: block; text-align: center; width: 60px; margin-top: 20px; margin-right: auto; margin-left: auto;}}
+
+@media (max-width: 327px) {nav > #telamg {display: none} #telapp{display: inline-block;}}
 
 h1 {
     font-family: "open sans", Arial, Helvetica, sans-serif;
@@ -183,7 +190,9 @@ article  p {
 
  @media (max-width:970px) {section {flex-direction: column; margin: auto; margin-bottom: 25px;} ul.slider {width: 500px; height: 667px; margin: auto; padding:  0px 10px 0px 10px;} article {width: 90%; margin: auto; padding: 0px;} article > h2 {font-size: 1em; margin: 20px 0px 20px 0px; padding: 0px;} article > p {font-size: .9em; margin: 0px; padding: 0px;}}
 
- @media (max-width: 600px) {ul.slider {width: 300px; height: 400px; margin: auto; padding: 0px 10px 0px 10px;}}
+ @media (max-width: 600px) {ul.slider {width: 300px; height: 400px; margin: auto; padding: 0px 0px 0px 0px;}}
+
+ @media (max-width: 340px) {ul.slider {width: 250px; height: 337px; justify-content: center;}}
 
 footer {
     background-color: var(--cor4);
