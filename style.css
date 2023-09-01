@@ -134,6 +134,7 @@ main figure > figcaption > a:hover {
 }
 
 @media (max-width: 454px) {#tamanho {font-size: .6em;}}
+@media (max-width: 300px) {#tamanho {font-size: .5em;}}
 /*Termina Imagem de Gutemberg*/
 
 /*Áreas de atuação*/
@@ -163,7 +164,10 @@ section article > ul {
     font-family: "open sans", Arial, Helvetica, sans-serif;
     color: white;
     line-height: 2em;
-} /*Termina áreas de atuação*/
+} 
+
+@media (max-width: 340px) {section article > ul {width: 260px;}}
+/*Termina áreas de atuação*/
 
 /*Contato e localização*/
 section.action {
